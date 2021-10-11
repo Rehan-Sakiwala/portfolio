@@ -1,0 +1,34 @@
+#home{
+			flex-direction:column;
+}
+
+.head{
+			font-size:1.7rem;
+}
+
+#img_me img{
+			width:200px;
+			height:175px;
+}
+
+#intro h2{
+			font-size:1.2rem;
+}
+
+#snaps img{
+			width:250px;
+			height:150px;
+			padding:10px;
+}
+
+.data{
+			width:80%;
+}
+
+#sugg{
+			width:70%
+}
+
+#submit{
+			width:20%
+}

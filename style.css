@@ -1,0 +1,279 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.nav{
+			display:flex;
+			justify-content:center;
+			align-item:center;
+			background-color:#E7717D;
+			z-index:1;
+			position: sticky;
+			top:0px;
+}
+
+.nav ul{
+			display:flex;
+      list-style-type:none;
+      margin:20px 0px;
+}
+
+.nav ul li{
+          font-family:century;
+		      font-size:1rem;
+		      font-weight:100px;
+}
+
+.nav ul li a{
+			    text-decoration:none;
+			    color:white;
+			    padding:9px 25px;
+			    transition:all .5s ease;
+			
+}
+
+.nav ul li a:hover{
+			      color:black;
+			      box-shadow:0px 0px 10px white;
+			      background-color:white;
+			      cursor:pointer;
+}
+
+#home{
+			display:flex;
+			flex-direction:column;
+			background-color:rgba(0,0,0,0.5);
+			height:900px;
+			justify-content:center;
+			align-item:center;
+			color:white;
+}
+#home::before{
+			content:"";
+			position:absolute;
+			background:url('bg3.jpeg') no-repeat center center/cover;
+			height:900px;
+			width:100%;
+			z-index:-1;
+			opacity:.8;
+}
+
+.outer{
+			display:flex;
+			flex-direction:column;
+			width:400px;
+			position:absolute;
+			top:220px;
+			right:400px;
+}
+
+.head{
+			font-family:Arial, Helvetica,Sans-serif;
+			font-size:3rem;
+			margin:40px 0px;
+}
+
+.abt_me{
+			padding:2px 8px;
+			width:100px;
+			background-color:#E7717D;
+			height:30px;
+			border:1px solid #E7717D;
+			border-radius:20px;
+			text-decoration:none;
+			color:white;
+			transition:.6 ease;
+}
+
+.abt_me:hover{
+			box-shadow:0px 0px 10px white;
+			cursor:pointer;
+			
+}
+
+#about{
+			display:flex;
+			flex-direction:column;
+			box-sizing:border-box;
+			padding:20px;
+			margin-bottom:50px;
+}
+
+#img_me{
+			display:flex;
+}
+
+#img_me img{
+			width:575px;
+			height:400px;
+}
+
+#about .head{
+			text-align:center;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:3rem;
+			margin:40px 0px;
+}
+
+#my_intro{
+			display:flex;
+			flex-direction:column;
+			text-align:justify;
+			padding:10px;
+}
+
+#my_intro h2{
+			margin-bottom:20px;
+			font-size:32px;
+}
+
+#works{
+			display:flex;
+			flex-direction:column;
+			background:rgba(0,0,0,0.75);
+			alig-items:center;
+			padding:20px;
+}
+
+#snaps{
+			display:flex;
+			flex-wrap:wrap;
+		  justify-content:space-around; 
+			box-sizing:border-box;
+}
+
+#works .head{
+			text-align:center;
+			color:white;
+}
+
+#snaps img{
+			width:360px;
+			height:240px;
+			padding:10px;
+}
+
+#services{
+			display:flex;
+			flex-direction:column;
+			padding:20px;
+}
+
+#services .head{
+			text-align:center;
+}
+
+#services .headings{
+			font-size:2rem;
+			text-align:center;
+		  margin-bottom:20px;
+}
+
+.row{
+			display:flex;
+		  justify-content:space-around;
+			flex-wrap:wrap;
+			box-sizing:border-box;
+}
+
+.box{
+			display:flex;
+			flex-direction:column;
+			width:350px;
+			height:450px;
+			margin:10px;
+			align-item:center;
+			text-align:justify;
+			padding:10px;
+			border-radius:15px;
+			justify-content:center;
+			box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.box:hover{
+			background-color:aqua;
+}
+
+.box img{
+			width:80px;
+			height:80px;
+			margin-left:35%;
+			margin-bottom:20px;
+}
+
+#contact{
+			display:flex;
+			box-sizing:border-box;
+			flex-direction:column;
+			background-color:rgba(0,0,0,0.75);
+}
+
+#contact .head{
+			text-align:center;
+			color:white;
+}
+
+#line{
+		 width:100px;
+		 margin-left:45%;
+		 margin-top:-30px;
+		 box-shadow:0 0 5px white;
+}
+
+.form{
+			display:flex;
+			flex-direction:column;
+			box-sizing:border-box;
+			align-items:center;
+			margin:20px 0px;
+}
+
+.data{
+			padding:10px;
+			margin:15px;
+			width:30%;
+			border:none;
+			outline:none;
+}
+
+#sugg{
+			width:20%;
+			padding:7px;
+			outline:none;
+			border:none;
+			margin:13px;
+}
+
+#submit{
+      padding:10px;
+			width:10%;
+			margin:40px;
+			outline:none;
+			border:none;
+			background-color:#E7717D;
+			border-radius:10px;
+			color:white;
+}
+
+#submit:hover{
+			cursor:pointer;
+			box-shadow:0 0 10px white;
+
+}
+
+.footer{
+      display:flex;
+			justify-content:center;
+}
+
+.footer p{
+			margin:20px 0px;
+			font-size:1.2rem;
+}
+
+.footer img{
+			width:18px;
+			height:18px;
+}
